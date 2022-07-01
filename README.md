@@ -21,7 +21,7 @@ In this section the user set the x_position and and robot must go to the desire 
 ## Angular Controller
 ***
 ### Code Functionality
-In this code the heading of the robot is calculated with [^self.get_compass_heading ]and angle of the robot changes (by turning the wheels against each other) to the desired heading
+In this code the heading of the robot is calculated with </self.get_compass_heading> and angle of the robot changes (by turning the wheels against each other) to the desired heading
 ## 2D Controller
 ***
 ### Code Functionality
