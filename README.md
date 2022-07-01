@@ -14,4 +14,6 @@ At first, the defender robot stands in front of the blue goal with `class GotoXY
 ### Attacker
 The attacker goes behind the ball with `class TraceBall` and stands towards the yellow goal and hits the ball, and the approach is to trace the ball and hit the ball towards the goal until the ball becomes a goal.
 
-
+## Controller And Discretization
+***
+In this project just use PID controller and iscretization the system with ZOH method.
