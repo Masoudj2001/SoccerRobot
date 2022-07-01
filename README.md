@@ -25,6 +25,7 @@ In this code the heading of the robot is calculated with <"self.get_compass_head
 ## 2D Controller
 ***
 ### Code Functionality
-In this code, position of the robot is controlled with two objects from the same PID class, one for the distance between the robot and desired position and one for the angle difference. Robot motors use the formula derived in the class the desired (vr=(2v+Lw)/2R and vl=(2v-Lw)/2R) to move the robot to the desired X abd Y
+In this code, position of the robot is controlled with two same PID class, for controllig the distance between the robot and desired position and for controlling the angle difference.
+
 
 
