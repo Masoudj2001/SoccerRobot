@@ -21,4 +21,6 @@ In this section the user set the x_position and and robot must go to the desire 
 ## Angular Controller
 ***
 ### Code Functionality
+In the code designed for controlling the Angle of the robot, the same PID class is used. the desired output for heading is constantly being checked with the feedback (heading) to reach the desired output.
+
 
