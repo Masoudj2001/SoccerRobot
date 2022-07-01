@@ -21,7 +21,7 @@ In this section the user set the x_position and and robot must go to the desire 
 ## Angular Controller
 ***
 ### Code Functionality
-In this code the heading of the robot is calculated with `self.get_compass_heading` and angle of the robot changes (by turning the wheels against each other) to the desired heading
+In this code the heading of the robot is calculated with `self.get_compass_heading()` and angle of the robot changes (by turning the wheels against each other) to the desired heading
 ## 2D Controller
 ***
 ### Code Functionality
@@ -29,7 +29,7 @@ In this code, position of the robot is controlled with two same PID class, for c
 ## Ball Tracking Controller
 ***
 ### Code Functionality
-In this code, 3 objects of the PID controller rotate the robot so the ball is in fornt of it by increaing FrontBack parameter if its lower than -0.6 (ball_bata["direction"][0]) ,reduce robot angle with the ball (ball_bata["direction"][1]) and increase the disatnce parameter (ball_bata["strength"]) which is being feed to the controller as 1/distance. Robot motors use the formula derived in the class (vr=(2v+Lw)/2R and vl=(2v-Lw)/2R) in which v is the distance controller output and w is the theta controller output
+In this code, 3 objects of the PID controller rotate the robot so the ball is in fornt of it by increaing FrontBack parameter if its lower than -0.6 `(ball_bata["direction"][0])` ,reduce robot angle with the ball `(ball_bata["direction"][1])` and increase the disatnce parameter `(ball_bata["strength"])` which is being feed to the controller as 1/distance. Robot motors use the formula derived in the class `(vr=(2v+Lw)/2R` and `vl=(2v-Lw)/2R)` in which v is the distance controller output and w is the theta controller output
 
 
 
