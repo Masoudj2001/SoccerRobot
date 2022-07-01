@@ -21,6 +21,10 @@ In this section the user set the x_position and and robot must go to the desire 
 ## Angular Controller
 ***
 ### Code Functionality
-In the code designed for controlling the Angle of the robot, the same PID class is used. the desired output for heading is constantly being checked with the feedback (heading) to reach the desired output.
+In this code the heading of the robot is calculated with <"self.get_compass_heading"> and angle of the robot changes (by turning the wheels against each other) to the desired heading
+## 2D Controller
+***
+### Code Functionality
+In this code, position of the robot is controlled with two objects from the same PID class, one for the distance between the robot and desired position and one for the angle difference. Robot motors use the formula derived in the class the desired (vr=(2v+Lw)/2R and vl=(2v-Lw)/2R) to move the robot to the desired X abd Y
 
 
